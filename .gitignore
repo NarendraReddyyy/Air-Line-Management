@@ -1,0 +1,41 @@
+# Ignore the entire target directory
+target/
+
+# Allow JAR files inside target/
+!target/
+!target/*.jar
+
+# Maven Wrapper JAR
+!.mvn/wrapper/maven-wrapper.jar
+
+# Allow target directories inside specific subfolders
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
